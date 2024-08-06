@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="display-1">
+            <nav>
+                <img src="logo.jpeg" width="60px">
+            </nav>
+            <textarea placeholder="digite um texto" id="text"></textarea>
+            <p>? Nao use acento nem letras maiusculas</p>
+            <div class="display-1-1">
+                <button class="bt1" onclick="criptografar()">Criptografar</button>
+                <button class="bt2" id="bt2" style="border: 1px solid rgb(27, 27, 100);" onclick="descriptografar()">Descriptografar</button>
+            </div>
+        </div>
+        
+        <div class="display-2" id="display-2">
+            <p id="resultado">Nenhuma mensagem carregada</p>
+        </div>
+    </body>
+    <script src="script1.js"></script>
+</html>
